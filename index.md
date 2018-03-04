@@ -27,7 +27,7 @@ and HEX1.
 
 ### Results
 
-### Truth Table
+### Mode and Operation Truth Tables
 
 | KEY1 KEY0 | Mode          |
 |:---------:|:-------------:|
@@ -36,7 +36,7 @@ and HEX1.
 | 10        | Comparison    |
 | 11        | Magic         |
 
-| SW8 SW9   | Arithmetic    | Logical | Comparision |
+| SW9 SW8   | Arithmetic    | Logical | Comparision |
 |:---------:|:-------------:|:-------:|:-----------:|
 | 00        | Add           | AND     | EQUAL       |
 | 01        | Subtract      | OR      | GREATER     |
@@ -44,6 +44,60 @@ and HEX1.
 | 11        | Divide-By-2   | NOT     | MAX         |
 
 ### Pictures
+
+Note:
+
+1010 in binary is A in Hexadecimal
+
+0111 in binary is 7 in Hexadecimal
+
+1000 in binary is 8 in Hexadecimal
+
+#### Arithmetic Operations 
+
+##### Addition
 ![Addition]({{ "/images/add.jpg" | absolute_url }})
+
+##### Subtraction
+![Subtraction]({{ "/images/sub.jpg" | absolute_url }})
+
+##### Multiply By 2
+![Multiply By 2]({{ "/images/mult.jpg" | absolute_url }})
+
+##### Divide By 2
+![Divide By 2]({{ "/images/div.jpg" | absolute_url }})
+
+#### Logical Operations
+
+##### AND
+![AND]({{ "/images/and.jpg" | absolute_url }})
+
+##### OR
+![OR]({{ "/images/or.jpg" | absolute_url }})
+
+##### EXOR
+![EXOR]({{ "/images/exor.jpg" | absolute_url }})
+
+##### NOT
+![NOT]({{ "/images/not.jpg" | absolute_url }})
+
+#### Comparison Operations
+
+##### Equal To
+![Equal To]({{ "/images/equal.jpg" | absolute_url }})
+
+##### Greater Than
+![Greater Than]({{ "/images/greater.jpg" | absolute_url }})
+
+##### Less Than
+![Less Than]({{ "/images/less.jpg" | absolute_url }})
+
+##### Max
+![Max]({{ "/images/max.jpg" | absolute_url }})
+
+#### Magic (Knight Rider Pattern)
+
+##### Magic
+<video src="images/magic.mp4" controls="controls" muted="muted" style="max-width: 100%" type="video/mp4"></video>
 
 ### Conclusion
